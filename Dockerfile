@@ -1,7 +1,12 @@
 FROM alpine
 
-COPY script.sh /script.sh
+MAINTAINER Sharath Ganga
 
-CMD ["/script.sh"]
+RUN apk update && \
+apk add \
+git \
+tree \
+vim \
+apache2
 
 
