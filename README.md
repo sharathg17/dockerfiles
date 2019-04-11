@@ -1,2 +1,2 @@
 # dockerfiles
-Contains dockerfile
+This repository contains dockerfiles.
